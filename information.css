@@ -37,7 +37,7 @@
 }
 
 .infoblock {
-    margin: 20px;
+    margin: 50px;
     width: auto;
     border-radius: 15px;
     background-color: rgb(243, 243, 243);
@@ -74,7 +74,7 @@
 }
 
 .infoblockButtonPurple {
-    padding: 5px 17px;
+    padding: 0px 149px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -94,7 +94,7 @@
 }
 
 .infoblockButtonRed {
-    padding: 5px 17px;
+    padding: 0px 149px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -114,7 +114,7 @@
 }
 
 .infoblockButtonGreen {
-    padding: 5px 17px;
+    padding: 0px 149px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -134,7 +134,7 @@
 }
 
 .infoblockButtonYellow {
-    padding: 5px 17px;
+    padding: 0px 149px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -154,7 +154,7 @@
 }
 
 .infoblockButtonBlue {
-    padding: 5px 17px;
+    padding: 0px 149px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -174,7 +174,7 @@
 }
 
 .infoblockButtonPink {
-    padding: 5px 17px;
+    padding: 0px 149px;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bold;
@@ -229,19 +229,25 @@
     }
 
     .infoblockButtonPurple {
-        margin-left: 93%;
+        margin-left: 25%;
     }
 
     .infoblockButtonRed {
-        margin-left: 93%;
+        margin-left: 25%;
     }
 
     .infoblockButtonGreen {
-        margin-left: 93%;
+        margin-left: 25%;
     }
 
     .infoblockButtonYellow {
-        margin-left: 93%;
+        margin-left: 25%;
+    }
+    .infoblockButtonBlue {
+        margin-left: 25%;
+    }
+    .infoblockButtonPink {
+        margin-left: 25%;
     }
 
     .tutorialVideo {
@@ -276,6 +282,12 @@
     .infoblockButtonYellow {
         margin-left: 90%;
     }
+    .infoblockButtonBlue {
+        margin-left: 90%;
+    }
+    .infoblockButtonPink {
+        margin-left: 90%;
+    }
 
 }
 
@@ -292,19 +304,25 @@
     }
 
     .infoblockButtonPurple {
-        margin-left: 89%;
+        margin-left: 1%;
     }
 
     .infoblockButtonRed {
-        margin-left: 89%;
+        margin-left: 1%;
     }
 
     .infoblockButtonGreen {
-        margin-left: 89%;
+        margin-left: 1%;
     }
 
     .infoblockButtonYellow {
-        margin-left: 89%;
+        margin-left: 1%;
+    }
+    .infoblockButtonBlue {
+        margin-left: 1%;
+    }
+    .infoblockButtonPink {
+        margin-left: 1%;
     }
 
     .video iframe{

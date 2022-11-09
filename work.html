@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <title>News</title>
+    <title>Shop</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="information.css">
     <link rel="stylesheet" href="news.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,9 +47,9 @@
             <nav>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a style="color: white;" href="./news.html">News</a></li>
+                    <li><a href="./news.html">News</a></li>
                     <li><a href="./information.html">Information</a></li>
-                    <li><a href="./work.html">Shop</a></li>
+                    <li><a style="color: white;" href="./news.html">Shop</a></li>
                     <li><a href="./help.html">Help</a></li>
                 </ul>
             </nav>
@@ -57,38 +58,55 @@
 
         <div class="newsArticle">
 
+
             <div class="news">
                 <div class="newsTitle">
-                    <div class="newsIcon"><img src="gold.png" alt=""></div>
-                    <h1>Minecraft Server Start</h1>
+                    <div class="newsIcon"><img src="swords.png" alt=""></div>
+                    <h1>SHOP WORK IN PROGRESS</h1>
                     <div class="clear"></div>
                 </div>
 
                 <div class="barTwo"></div>
                 <div class="newsDescription">
-                    <p>The Server is going to start with only one mode. The mode is going to be Survival with 1 day ban after you die 3 times </p>
-                    <br>
-                    <p>The server is gonna have good optimize economy plugins This is some of the plugins that gonna be on the server </p>
-                    <p>Admin shop</p>
-                    <p>Player shop</p>
-                    <p>Auctions house</p>
-                    <p>Home system</p>
-                    <p>TPA</p>
-                    <br>
                     <img 
-                        src="https://cdn.discordapp.com/attachments/1027864299068215316/1039157367620775956/KxvzfL9_1.jpg"
+                        src="https://media.discordapp.net/attachments/1027864299068215316/1027873555188289596/static_1.png"
                         alt="">
                     <br>
-                    <p></p>
-                    <br>
-                    <p></p>
-                    <br>
-                    <p></p>
-
+                    <div id="smart-button-container">
+                        <div style="text-align: center;">
+                          <div id="paypal-button-container"></div>
+                        </div>
+                      </div>
+                      <div id="paypal-button-container-P-6F950474BV942994MMNUPUHA"></div>
+                      <script src="https://www.paypal.com/sdk/js?client-id=AbooF2Ts84QYY8SKTFGVqT9F81kMP1Hltu6XB56b1PCBDQOrIO9gNnWFaJXHertb7ewO5ekQVS60_Ws1&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+                      <script>
+                        paypal.Buttons({
+                            style: {
+                                shape: 'pill',
+                                color: 'black',
+                                layout: 'horizontal',
+                                label: 'paypal'
+                            },
+                            createSubscription: function(data, actions) {
+                              return actions.subscription.create({
+                                /* Creates the subscription */
+                                plan_id: 'P-6F950474BV942994MMNUPUHA'
+                              });
+                            },
+                            onApprove: function(data, actions) {
+                              alert(data.subscriptionID); // You can add optional success message for the subscriber here
+                            }
+                        }).render('#paypal-button-container-P-6F950474BV942994MMNUPUHA'); // Renders the PayPal button
+                      </script>
                 </div>
             </div>
 
-           
+        </div>
+
+
+            </ul>
+        </nav>
+
         <div class="clear"></div>
         <footer>
             <p>All rights reserved.</p>
